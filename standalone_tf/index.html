@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="stylesheet" href="static/audio/styles.css">
+
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+        <script src="https://cdn.plot.ly/plotly-2.3.1.min.js"></script>
+        <script src="static/audio/fft.js"></script>
+        <script src="static/audio/audio_utils.js"></script>
+    </head>
+    <body>
+        <div id="viz">
+            <canvas id="analyser" width="1024" height="500"></canvas>
+            <div id="wavedisplay">
+                <div id="wavefiles">
+                </div>
+            </div>
+        </div>
+        <div id="controls">
+            <img id="record" src="static/audio/mic128.png" onclick="toggleRecording(this);">
+        </div>
+        <script src="static/audio/main.js"></script>
+    </body>
+</html>
