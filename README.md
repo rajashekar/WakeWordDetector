@@ -391,9 +391,9 @@ Below are the methods used on live streaming audio on above model.
 
 # Demo
 - For live demo 
-    - ONNX version -[https://wake-onnx.rajashekar.blog](https://wake-onnx.rajashekar.blog)    
-    - Tensorflow js version - [https://wake-tf.rajashekar.blog](https://wake-tf.rajashekar.blog)
-    - Tensorflow lite js version - [https://wake-tflite.rajashekar.blog](https://wake-tflite.rajashekar.blog) 
+    - ONNX version -[https://wake-onnx.netlify.app](https://wake-onnx.netlify.app)    
+    - Tensorflow js version - [https://wake-tf.netlify.app/](https://wake-tf.netlify.app)
+    - Tensorflow lite js version - [https://wake-tflite.netlify.app/](https://wake-tflite.netlify.app/) 
 - Allow microphone to capture audio
 - Model is trained on `hey fourth brain` - once those words are detected is sequence, for each detected wake word, a play button to listen to what sound was used to detect that word, and what mel spectrograms are used will be listed. 
 
