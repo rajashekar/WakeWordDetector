@@ -399,9 +399,12 @@ Below are the methods used on live streaming audio on above model.
 
 # Slides
 Please use this [link](https://docs.google.com/presentation/d/e/2PACX-1vQkJ5OSajJQ_7y8JOXaydYKcDEb8vR1j_LjU9Y6ml0Ps8HZ7NocPluWZstHydTbGTWspvj6psS9OLvz/pub?start=false&loop=false&delayms=3000) for slides 
+
+# Dataset
+You can download the dataset that was used in the project from [here](https://drive.google.com/drive/folders/1c825hoz4ybP66Vgfzvsz1cpoHtKvsaxA?usp=sharing)
+
 # Conclusion
 In this project, we have went through how to extract audio features from audio and train model and detect wake words by using end to end example with source code. Go through [wake_word_detection.ipynb](notebooks/wake_word_detection.ipynb) jupyter notebook for complete walk through of this project. 
-
 
 # Enhancements
 - Explore different number of mels, in this project we used 40 as number of mels, we can use different number to see whether this will improve accuracy or not, this can be in range of 32 to 128.
